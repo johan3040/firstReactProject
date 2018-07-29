@@ -1,0 +1,19 @@
+{
+    "treatments":[
+        {
+            "id": 0,
+            "description": "Herrklippning",
+            "price": 250
+        },
+        {
+            "id": 1,
+            "description": "Damklippning",
+            "price": 450
+        },
+        {
+            "id": 2,
+            "description": "Barn/Pensionär/Student",
+            "price": "200"
+        }
+    ]
+}

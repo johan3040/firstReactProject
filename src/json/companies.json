@@ -1,0 +1,291 @@
+{
+    "companies":[
+        {
+            "id": 0,
+            "title": "Alpha", 
+            "imgUrl": "ibm.png",
+            "price": 250,
+            "website": "www.kaluffs.se",
+            "telnumber": "08-6609934",
+            "treatments": [
+                1,2,3
+            ],
+            "hours": {
+                "open": "10:00",
+                "close": "18:00"
+            },
+            "location": {
+                "street": "Karlavägen 44",
+                "zip": 11449,
+                "city": "Stockholm"
+            },
+            "coords": {
+                "latitude": 59.340136,
+                "longitude": 18.077443
+            },
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam at arcu a est sollicitudin euismod. Integer tempor. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "rating": 3
+        },
+        {
+            "id": 1,
+            "title": "Hendrix", 
+            "imgUrl": "microsoft.png",
+            "price": 250,
+            "website": "www.kaluffs.se",
+            "telnumber": "08-6609934",
+            "treatments": [
+                1,2,3
+            ],
+            "hours": {
+                "open": "10:00",
+                "close": "18:00"
+            },
+            "location": {
+                "street": "Karlavägen 44",
+                "zip": 11449,
+                "city": "Stockholm"
+            },
+            "coords": {
+                "latitude": 59.340136,
+                "longitude": 18.077443
+            },
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam at arcu a est sollicitudin euismod. Integer tempor. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "rating": 3
+        },
+        {
+            "id": 2,
+            "title": "Blacker", 
+            "imgUrl": "apple.png",
+            "price": 250,
+            "website": "www.kaluffs.se",
+            "telnumber": "08-6609934",
+            "treatments": [
+                1,2,3
+            ],
+            "hours": {
+                "open": "10:00",
+                "close": "18:00"
+            },
+            "location": {
+                "street": "Karlavägen 44",
+                "zip": 11449,
+                "city": "Stockholm"
+            },
+            "coords": {
+                "latitude": 59.340136,
+                "longitude": 18.077443
+            },
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam at arcu a est sollicitudin euismod. Integer tempor. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "rating": 3
+        },
+        {
+            "id": 3,
+            "title": "Cutson", 
+            "imgUrl": "ibm.png",
+            "price": 250,
+            "website": "www.kaluffs.se",
+            "telnumber": "08-6609934",
+            "treatments": [
+                1,2,3
+            ],
+            "hours": {
+                "open": "10:00",
+                "close": "18:00"
+            },
+            "location": {
+                "street": "Karlavägen 44",
+                "zip": 11449,
+                "city": "Stockholm"
+            },
+            "coords": {
+                "latitude": 59.340136,
+                "longitude": 18.077443
+            },
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam at arcu a est sollicitudin euismod. Integer tempor. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "rating": 3
+        },
+        {
+            "id": 4,
+            "title": "Styles", 
+            "imgUrl": "apple.png",
+            "price": 250,
+            "website": "www.kaluffs.se",
+            "telnumber": "08-6609934",
+            "treatments": [
+                1,2,3
+            ],
+            "hours": {
+                "open": "10:00",
+                "close": "18:00"
+            },
+            "location": {
+                "street": "Karlavägen 44",
+                "zip": 11449,
+                "city": "Stockholm"
+            },
+            "coords": {
+                "latitude": 59.340136,
+                "longitude": 18.077443
+            },
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam at arcu a est sollicitudin euismod. Integer tempor. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "rating": 3
+        },
+        {
+            "id": 5,
+            "title": "Papers n Scissors", 
+            "imgUrl": "apple.png",
+            "price": 250,
+            "website": "www.kaluffs.se",
+            "telnumber": "08-6609934",
+            "treatments": [
+                1,2,3
+            ],
+            "hours": {
+                "open": "10:00",
+                "close": "18:00"
+            },
+            "location": {
+                "street": "Karlavägen 44",
+                "zip": 11449,
+                "city": "Stockholm"
+            },
+            "coords": {
+                "latitude": 59.340136,
+                "longitude": 18.077443
+            },
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam at arcu a est sollicitudin euismod. Integer tempor. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "rating": 3
+        },
+        {
+            "id": 6,
+            "title": "Cuttermania", 
+            "imgUrl": "ibm.png",
+            "price": 250,
+            "website": "www.kaluffs.se",
+            "telnumber": "08-6609934",
+            "treatments": [
+                1,2,3
+            ],
+            "hours": {
+                "open": "10:00",
+                "close": "18:00"
+            },
+            "location": {
+                "street": "Karlavägen 44",
+                "zip": 11449,
+                "city": "Stockholm"
+            },
+            "coords": {
+                "latitude": 59.340136,
+                "longitude": 18.077443
+            },
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam at arcu a est sollicitudin euismod. Integer tempor. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "rating": 3
+        },
+        {
+            "id": 7,
+            "title": "Sweeney Todd", 
+            "imgUrl": "microsoft.png",
+            "price": 250,
+            "website": "www.kaluffs.se",
+            "telnumber": "08-6609934",
+            "treatments": [
+                1,2,3
+            ],
+            "hours": {
+                "open": "10:00",
+                "close": "18:00"
+            },
+            "location": {
+                "street": "Karlavägen 44",
+                "zip": 11449,
+                "city": "Stockholm"
+            },
+            "coords": {
+                "latitude": 59.340136,
+                "longitude": 18.077443
+            },
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam at arcu a est sollicitudin euismod. Integer tempor. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "rating": 3
+        },
+        {
+            "id": 8,
+            "title": "Xyz", 
+            "imgUrl": "ibm.png",
+            "price": 250,
+            "website": "www.kaluffs.se",
+            "telnumber": "08-6609934",
+            "treatments": [
+                1,2,3
+            ],
+            "hours": {
+                "open": "10:00",
+                "close": "18:00"
+            },
+            "location": {
+                "street": "Karlavägen 44",
+                "zip": 11449,
+                "city": "Stockholm"
+            },
+            "coords": {
+                "latitude": 59.340136,
+                "longitude": 18.077443
+            },
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam at arcu a est sollicitudin euismod. Integer tempor. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "rating": 3
+        },
+        {
+            "id": 9,
+            "title": "Kaluffs", 
+            "imgUrl": "ibm.png",
+            "price": 250,
+            "website": "www.kaluffs.se",
+            "telnumber": "08-6609934",
+            "treatments": [
+                1,2,3
+            ],
+            "hours": {
+                "open": "10:00",
+                "close": "18:00"
+            },
+            "location": {
+                "street": "Karlavägen 44",
+                "zip": 11449,
+                "city": "Stockholm"
+            },
+            "coords": {
+                "latitude": 59.340136,
+                "longitude": 18.077443
+            },
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam at arcu a est sollicitudin euismod. Integer tempor. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "rating": 3
+        },
+        {
+            "id": 10,
+            "title": "Hårsprättarna", 
+            "imgUrl": "ibm.png",
+            "price": 250,
+            "website": "www.kaluffs.se",
+            "telnumber": "08-6609934",
+            "treatments": [
+                1,2,3
+            ],
+            "hours": {
+                "open": "10:00",
+                "close": "18:00"
+            },
+            "location": {
+                "street": "Karlavägen 44",
+                "zip": 11449,
+                "city": "Stockholm"
+            },
+            "coords": {
+                "latitude": 59.340136,
+                "longitude": 18.077443
+            },
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam at arcu a est sollicitudin euismod. Integer tempor. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "rating": 3
+        }
+        
+    ]
+}
