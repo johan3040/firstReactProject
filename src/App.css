@@ -1,42 +1,21 @@
 @font-face{
   font-family: 'MyFont';
-  src: url('Font Bureau - MillerBanner Light.otf') format('opentype');
+  src: url('FontBureau-MillerBannerLight.otf') format('opentype');
 }
 
 body{
-  font-family: 'MyFont', sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 #root{
-  background-color: #ddd;
+  background-color: #fff;
   width: 100%;
 }
 
-h1{
-  padding: 10px;
-  margin: 0;
+.companyInnerSection h3, .companyDetails h2{
+  font-size: 1.4em;
 }
 
-.companyContainer{
-  border: 1px solid #B59E56;
-}
-
-.companySection{
-  border: 1px solid #B59E56;
-}
-
-.companyInnerSection{
-  display: inline-block;
-  margin-left: 50px;
-  width: 50%;
-}
-
-.companySection figure{
-  display: inline-block;
-  margin: 0;
-}
-
-.companySection img{
-  display: inline-block;
-  height: 100px;
+.companyInnerSection h3, .companyDetails h2{
+  font-family: 'MyFont', sans-serif;
 }

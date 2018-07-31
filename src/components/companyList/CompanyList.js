@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import CompanyListItem from './CompanyListItem';
-import CompanyJsonFile from './../json/companies.json';
+import CompanyListItem from '../companyListItem/CompanyListItem';
+import CompanyJsonFile from '../../json/companies.json';
+
+import './CompanyList.css';
 
 const jsonData = CompanyJsonFile;
 const data = jsonData.companies.sort((a,b)=>{

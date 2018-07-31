@@ -13,18 +13,16 @@ export default class CompanyListItem extends React.Component{
     }
 
     render(){
-        let title = this.props.title;
-        let location = this.props.location;
         let img = "/img/" + this.props.img;
         return(
             <div className="companySection">
                 <div className="companyInnerSection">
-                    <h3 onClick = {this.handleClick} style={{cursor: "pointer"}}>{title}</h3>
+                    <h3 onClick = {this.handleClick} style={{cursor: "pointer"}}>{this.props.title}</h3>
                     <p>Paragraph</p>
-                    <p>Location: {location} </p>
+                    <p>Location: {this.props.location} </p>
                 </div>
                 <figure>
-                    <img src={img} alt={title} />
+                    <img src={img} alt={this.props.title} />
                 </figure>
             </div>
         );

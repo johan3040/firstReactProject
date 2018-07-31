@@ -1,7 +1,7 @@
 import React from 'react';
-import './CompanyContainer.css';
-import { CompanyList } from './CompanyList';
-import { CompanyDetails } from './CompanyDetails';
+import './companyContainer.css';
+import { CompanyList } from '../companyList/CompanyList';
+import { CompanyDetails } from '../companyDetails/CompanyDetails';
 
 export class CompanyContainer extends React.Component {
     

@@ -24,7 +24,7 @@
                 "longitude": 18.077443
             },
             "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam at arcu a est sollicitudin euismod. Integer tempor. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-            "rating": 3
+            "rating": 5
         },
         {
             "id": 1,
@@ -50,7 +50,7 @@
                 "longitude": 18.077443
             },
             "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam at arcu a est sollicitudin euismod. Integer tempor. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-            "rating": 3
+            "rating": 1
         },
         {
             "id": 2,
@@ -102,7 +102,7 @@
                 "longitude": 18.077443
             },
             "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam at arcu a est sollicitudin euismod. Integer tempor. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-            "rating": 3
+            "rating": 2
         },
         {
             "id": 4,

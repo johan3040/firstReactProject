@@ -1,0 +1,10 @@
+.ratingContainer{
+    position: absolute;
+    top: 315px;
+    color: white;
+    left: 3%;
+}
+
+.star{
+    color: yellow;
+}

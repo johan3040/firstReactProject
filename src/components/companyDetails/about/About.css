@@ -1,0 +1,10 @@
+.companyDescription{
+    margin: 0;
+    padding: 0;
+    display: block;
+    border-bottom: 1px solid #B59E56;
+}
+
+.companyDescription p{
+    padding: 0.5em;
+}

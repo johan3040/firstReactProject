@@ -1,0 +1,32 @@
+#generalInfo {
+    border: 1px solid black;
+}
+
+#generalInfo p::before{
+    background-image: url("../../../icons/clock.svg");
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 30px; 
+    height: 20px;
+    content:"";
+    top: 3px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#generalInfo p{
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+#generalInfo .address::before{
+    background-image: url("../../../icons/location.svg")
+}
+
+#generalInfo .telNumber::before{
+    background-image: url("../../../icons/telephone.svg")
+}
+
+#generalInfo .website::before{
+    background-image: url("../../../icons/desktop.svg")
+}
