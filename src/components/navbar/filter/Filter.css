@@ -1,0 +1,11 @@
+.filterIcon{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url("../../../icons/options.svg");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 90vw;
+}

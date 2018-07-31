@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './CompanyListItem.css';
+
 export default class CompanyListItem extends React.Component{
     constructor(props){
         super(props);

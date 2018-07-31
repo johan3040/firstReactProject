@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import About from './about/About';
+import BackBtn from '../backBtn/BackBtn';
 import GeneralInfo from './generalInfo/GeneralInfo';
 import Header from './header/Header';
 import Map from './map/Map';
@@ -12,11 +13,10 @@ import './CompanyDetails.css';
 
 const data = CompanyJsonFile;
 
-export class CompanyDetails extends React.Component{
+export default class CompanyDetails extends React.Component{
 
     constructor(props){
         super(props);
-        console.log(typeof(this.props.id))
         this.state = {
             objectId: this.props.id          
         }
@@ -24,10 +24,10 @@ export class CompanyDetails extends React.Component{
 
     render(){
         let obj = data.companies[this.state.objectId];
-        console.log(obj.coords.latitude);
         return(
             <div className="companyDetails">
-                <button onClick={this.props.onClick}>Back</button>
+                
+                <BackBtn callback={this.props.onClick} />
                 <Header text={obj.title} rating={obj.rating} />
                 <GeneralInfo 
                     street={obj.location.street}

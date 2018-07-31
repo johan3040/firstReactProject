@@ -1,0 +1,25 @@
+h1{
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .companySection{
+    width: 90vw;
+    border-bottom: 1px solid #B59E56;
+    margin: auto;
+  }
+  
+  .companyInnerSection{
+    display: inline-block;
+    width: 50%;
+  }
+  
+  .companySection figure{
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .companySection img{
+    display: inline-block;
+    height: 100px;
+  }

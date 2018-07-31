@@ -19,3 +19,7 @@ body{
 .companyInnerSection h3, .companyDetails h2{
   font-family: 'MyFont', sans-serif;
 }
+
+nav h4{
+  font-family: 'MyFont', sans-serif;
+}

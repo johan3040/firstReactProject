@@ -7,8 +7,15 @@
 
 .companyTitle{
     position: absolute;
-    top: 270px;
+    top: 280px;
     color: white;
     left: 3%;
     font-weight: 300;
+}
+
+.ratingContainer{
+    position: absolute;
+    top: 330px;
+    color: white;
+    left: 3%;
 }

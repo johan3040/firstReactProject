@@ -1,7 +1,9 @@
 import React from 'react';
 import './companyContainer.css';
+import BackBtn from '../backBtn/BackBtn';
 import { CompanyList } from '../companyList/CompanyList';
-import { CompanyDetails } from '../companyDetails/CompanyDetails';
+import CompanyDetails from '../companyDetails/CompanyDetails';
+import Navbar from '../navbar/Navbar';
 
 export class CompanyContainer extends React.Component {
     
@@ -9,7 +11,8 @@ export class CompanyContainer extends React.Component {
         super(props);
         this.state = {
             displayList: true,
-            currentId: null
+            currentId: null,
+            currentSection: "Hår"
         }
         this.handleListClick = this.handleListClick.bind(this);
         this.handleDetailsClick = this.handleDetailsClick.bind(this);
@@ -46,7 +49,11 @@ export class CompanyContainer extends React.Component {
     render(){
         
         return(
-            this.getCurrent()
+            <div>
+                <Navbar section={this.state.currentSection} />
+                <BackBtn />
+                {this.getCurrent()}
+            </div>
         );
     }
     
