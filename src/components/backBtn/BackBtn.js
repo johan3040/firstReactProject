@@ -2,7 +2,13 @@ import React from 'react';
 import './BackBtn.css';
 
 const BackBtn = (props)=>{
-    return <div className="backBtn" onClick={props.callback}></div>;
+    let className;
+    if(props.displayList){
+        className = "backBtn black";
+    }else{
+        className="backBtn gold";
+    }
+    return <div className={className} onClick={props.callback}></div>;
 }
 
 export default BackBtn;

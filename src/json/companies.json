@@ -4,7 +4,7 @@
             "id": 0,
             "title": "Alpha", 
             "imgUrl": "ibm.png",
-            "price": 250,
+            "price": 550,
             "website": "www.kaluffs.se",
             "telnumber": "08-6609934",
             "treatments": [
@@ -30,7 +30,7 @@
             "id": 1,
             "title": "Hendrix", 
             "imgUrl": "microsoft.png",
-            "price": 250,
+            "price": 850,
             "website": "www.kaluffs.se",
             "telnumber": "08-6609934",
             "treatments": [
@@ -82,7 +82,7 @@
             "id": 3,
             "title": "Cutson", 
             "imgUrl": "ibm.png",
-            "price": 250,
+            "price": 350,
             "website": "www.kaluffs.se",
             "telnumber": "08-6609934",
             "treatments": [
@@ -134,7 +134,7 @@
             "id": 5,
             "title": "Papers n Scissors", 
             "imgUrl": "apple.png",
-            "price": 250,
+            "price": 200,
             "website": "www.kaluffs.se",
             "telnumber": "08-6609934",
             "treatments": [
@@ -160,7 +160,7 @@
             "id": 6,
             "title": "Cuttermania", 
             "imgUrl": "ibm.png",
-            "price": 250,
+            "price": 100,
             "website": "www.kaluffs.se",
             "telnumber": "08-6609934",
             "treatments": [
@@ -212,7 +212,7 @@
             "id": 8,
             "title": "Xyz", 
             "imgUrl": "ibm.png",
-            "price": 250,
+            "price": 2500,
             "website": "www.kaluffs.se",
             "telnumber": "08-6609934",
             "treatments": [

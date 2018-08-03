@@ -18,8 +18,10 @@ export default class Header extends React.Component{
         return(
             <div>
                 <Hero alt={this.state.text} />
-                <h2 className="companyTitle">{this.state.text}</h2>
-                <Rating rating={this.props.rating} />
+                <div className="titleAndHeader">
+                    <h2 className="companyTitle">{this.state.text}</h2>
+                    <Rating rating={this.props.rating} />
+                </div>
                 <div className="btn">Info</div>
                 <div className="btn">Schema</div>
             </div>

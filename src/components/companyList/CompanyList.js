@@ -15,12 +15,17 @@ export const CompanyList = (props) => {
     return(
         <div className="companyContainer">
             {data.map((object, index)=>{
+                if(object.price > props.maxPrice || object.price < props.minPrice){
+                    return false;
+                } 
                 return (
                     <CompanyListItem 
                         title =     {object.title} 
                         key =       {object.id} 
                         location =  {object.location.city} 
-                        img =       {object.imgUrl} 
+                        rating =    {object.rating}
+                        street =    {object.location.street}
+                        price =     {object.price}
                         id =        {object.id}
                         index =     {index}
                         onClick =   {props.onClick}
@@ -31,8 +36,11 @@ export const CompanyList = (props) => {
     );
 }
 
+//Props from class CompanyContainer
 CompanyList.propTypes = {
-    onClick: PropTypes.func
+    onClick: PropTypes.func,
+    minPrice: PropTypes.number,
+    maxPrice: PropTypes.number
 }
 
 function sortByTitle(a,b){

@@ -4,7 +4,8 @@
 }
 
 body{
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: Verdana, sans-serif;
+  font-weight: 300;
 }
 
 #root{
@@ -16,7 +17,7 @@ body{
   font-size: 1.4em;
 }
 
-.companyInnerSection h3, .companyDetails h2{
+.companyInnerLeftSection h3, .companyDetails h2{
   font-family: 'MyFont', sans-serif;
 }
 

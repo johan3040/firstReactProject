@@ -22,6 +22,11 @@ export default class CompanyDetails extends React.Component{
         }
     }
 
+    componentDidMount(){
+        //Sends the user to the top of page
+        document.getElementsByTagName("img")[0].scrollIntoView();
+    }
+
     render(){
         let obj = data.companies[this.state.objectId];
         return(
