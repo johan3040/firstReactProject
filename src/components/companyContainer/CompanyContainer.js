@@ -43,6 +43,7 @@ export class CompanyContainer extends React.Component {
         if(this.state.displayList){
             return(
                 <div>
+                    <BackBtn displayList={this.state.displayList} />
                     <Navbar section={this.state.currentSection} onChange={this.updateContainer} currentMinPrice={this.state.minPrice} currentMaxPrice={this.state.maxPrice} />
                     <CompanyList onClick={this.handleListClick} maxPrice={this.state.maxPrice} minPrice={this.state.minPrice} />
                 </div>
@@ -74,7 +75,6 @@ export class CompanyContainer extends React.Component {
         
         return(
             <div>
-                <BackBtn displayList={this.state.displayList} />
                 {this.getCurrent()}
             </div>
         );

@@ -6,7 +6,7 @@ const BackBtn = (props)=>{
     if(props.displayList){
         className = "backBtn black";
     }else{
-        className="backBtn gold";
+        className="backBtn white";
     }
     return <div className={className} onClick={props.callback}></div>;
 }

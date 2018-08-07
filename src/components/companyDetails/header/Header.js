@@ -17,13 +17,14 @@ export default class Header extends React.Component{
     render(){
         return(
             <div>
+                <div className="like"></div>
                 <Hero alt={this.state.text} />
                 <div className="titleAndHeader">
                     <h2 className="companyTitle">{this.state.text}</h2>
-                    <Rating rating={this.props.rating} />
+                    <Rating rating={this.props.rating} color="#FFFFFF" />
                 </div>
-                <div className="btn">Info</div>
-                <div className="btn">Schema</div>
+                <div className="btn active"><strong>Info</strong></div>
+                <div className="btn"><strong>Schema</strong></div>
             </div>
         );
     }

@@ -23,8 +23,7 @@ export default class CompanyListItem extends React.Component{
                 <div className="innerLeftRightSection"><span>12.00</span></div>
                 <div className="companyInnerLeftSection">
                     <h3>{this.props.title}</h3>
-                    <Rating rating={this.props.rating} />
-                    <span>(0)</span>
+                    <Rating rating={this.props.rating} color="#000000" />
                     <p>{this.props.street}</p>
                 </div>
                 <div className="companyInnerRightSection">

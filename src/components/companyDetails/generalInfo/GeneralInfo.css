@@ -1,7 +1,3 @@
-#generalInfo {
-    border: 1px solid black;
-}
-
 #generalInfo p::before{
     background-image: url("../../../icons/clock.svg");
     background-size: 20px 20px;
@@ -29,4 +25,9 @@
 
 #generalInfo .website::before{
     background-image: url("../../../icons/desktop.svg")
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }

@@ -28,15 +28,6 @@
     margin-bottom: 0.6em;
   }
 
-  .ratingContainer{
-    display: inline-block;
-  }
-
-  /* "+" indicates first element after element with classname ratingContainer*/
-  .ratingContainer + span{
-    margin-left: -1em;
-  }
-
   .innerLeftRightSection{
     float:left;
     height: 100%;
