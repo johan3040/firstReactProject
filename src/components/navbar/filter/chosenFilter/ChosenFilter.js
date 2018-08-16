@@ -15,7 +15,9 @@ const ChosenFilter = (props)=>{
 
 ChosenFilter.propTypes = {
     minPrice: PropTypes.number,
-    maxPrice: PropTypes.number
+    maxPrice: PropTypes.number,
+    minValue: PropTypes.number,
+    maxValue: PropTypes.number
 }
 
 export default ChosenFilter;

@@ -59,16 +59,21 @@ export class CompanyContainer extends React.Component {
     }
 
     updateContainer(value){
+        let scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+        console.log(scrollTop);
         this.setState({
             minPrice: value.min,
-            maxPrice: value.max
+            maxPrice: value.max,
+            offsetTop: scrollTop
         });
     }
 
     componentDidUpdate(){
         //Sets the top offset to where the user left off.
         //Only gets used for when displaying the companyList
-        if(this.state.displayList === true) window.scrollBy(0, this.state.offsetTop);
+        if(this.state.displayList === true){
+            window.scrollTo(0, this.state.offsetTop);
+        }
     }
 
     render(){
