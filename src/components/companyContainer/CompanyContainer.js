@@ -60,7 +60,6 @@ export class CompanyContainer extends React.Component {
 
     updateContainer(value){
         let scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-        console.log(scrollTop);
         this.setState({
             minPrice: value.min,
             maxPrice: value.max,
